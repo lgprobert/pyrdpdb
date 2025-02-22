@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "",
+    "python.analysis.extraPaths": [
+        "~/projects/pyrdp"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests"
+    ]
+}

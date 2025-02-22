@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 90
+force-exclude = '''
+	pyrdpdb/messages
+'''
+
+[tool.mypy]
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = ["pyrdpdb.*", "thrift.*", "setuptools"]
+ignore_missing_imports = true

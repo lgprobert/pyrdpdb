@@ -1,0 +1,9 @@
+thrift==0.14.1
+pytest
+pytest-benchmark
+pytest-mock
+types-PyMySQL
+typing_extensions
+SQLAlchemy
+pytest_asyncio
+ipython

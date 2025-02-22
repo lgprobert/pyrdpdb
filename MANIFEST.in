@@ -1,0 +1,6 @@
+include README.md
+recursive-include pyrdpdb *.py
+prune tests
+prune __pycache__
+exclude *.pyc
+exclude *.pyo
